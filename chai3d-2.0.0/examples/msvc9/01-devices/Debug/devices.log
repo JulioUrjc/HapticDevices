@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 21/02/2015 17:19:17.
+     1>Proyecto "D:\Master\DHTV\Practicas\chai3d-2.0.0\examples\msvc9\01-devices\devices.vcxproj" en el nodo 2 (Build destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\Master\DHTV\Practicas\chai3d-2.0.0\examples\msvc9\01-devices\Debug\01 - devices.exe) does not match the Linker's OutputFile property value (D:\Master\DHTV\Practicas\chai3d-2.0.0\bin\01-devices.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(01 - devices) does not match the Linker's OutputFile property value (01-devices). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/01-devices.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../lib/msvc9 /LIBPATH:../../../external/OpenGL/msvc winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\devices.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\01 - devices.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO "Debug\01-devices.obj"
+         Debug\stdafx.obj
+         "D:\Master\DHTV\Practicas\chai3d-2.0.0\lib\msvc9\chai3d-debug.lib"
+         devices.vcxproj -> D:\Master\DHTV\Practicas\chai3d-2.0.0\examples\msvc9\01-devices\Debug\01 - devices.exe
+     1>Compilación del proyecto terminada "D:\Master\DHTV\Practicas\chai3d-2.0.0\examples\msvc9\01-devices\devices.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.25
