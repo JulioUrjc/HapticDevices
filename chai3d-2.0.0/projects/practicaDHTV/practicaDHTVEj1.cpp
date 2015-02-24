@@ -96,7 +96,7 @@ int main(int argc, char* argv[]){
 
 	//Creamos el mundo y la esfera
 	world = new cWorld();
-	cursor = new cShapeSphere(0.09);
+	cursor = new cShapeSphere(0.01);
 	world->addChild(cursor);
 
 	///////////////////////////////////////////////////////////////////////////////
