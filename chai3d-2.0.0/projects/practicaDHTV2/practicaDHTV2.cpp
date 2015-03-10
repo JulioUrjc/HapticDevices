@@ -104,14 +104,16 @@ int main(int argc, char* argv[]){
 	//-----------------------------------------------------------------------
 	// OBJECT CREATION
 	//-----------------------------------------------------------------------
-	object = new cShapeSphere(0.07);
+	object = new cShapeSphere(0.04);
 	world->addChild(object);
 	// set the position of the object at the center of the world
 	object->setPos(0.0, 0.0, 0.0);
 	// set the material stiffness to 100% of the maximum
 	object->m_material.setStiffness(1.0 * maxStiffness);
 
-	cColorf color = cColorf(1.0,0.0,0.0,0.5);
+	cMaterial material = cMaterial();
+	material.m_diffuse.set(0.9, 0.0, 0.0);
+	object->m_material= material;
 	
 	//Haptic capabilities
 	cEffectSurface* newEffect = new cEffectSurface(object);

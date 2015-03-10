@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 25/02/2015 13:55:42.
+﻿Compilación iniciada a las 06/03/2015 12:54:32.
      1>Proyecto "D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\practicaDHTV3\practicaDHTV3.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Master\DHTV\Practicas\chai3d-2.0.0/external/OpenGL/msvc" /I"D:\Master\DHTV\Practicas\chai3d-2.0.0/src" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _MSVC /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\practicaDHTV3.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt practicaDHTV3.cpp
@@ -11,4 +11,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:07.71
+Tiempo transcurrido 00:00:07.21

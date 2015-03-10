@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 26/02/2015 15:12:50.
+     1>Proyecto "D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\practicaDHTV4\practicaDHTV4.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Master\DHTV\Practicas\chai3d-2.0.0/external/OpenGL/msvc" /I"D:\Master\DHTV\Practicas\chai3d-2.0.0/src" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _MSVC /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\practicaDHTV4.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt practicaDHTV4.cpp
+         practicaDHTV4.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\msvc9\Debug\practicaDHTV4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Master\DHTV\Practicas\chai3d-2.0.0/external/OpenGL/msvc" /LIBPATH:"D:\Master\DHTV\Practicas\chai3d-2.0.0/lib/msvc9" winmm.lib opengl32.lib "chai3d-debug.lib" glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\msvc9\Debug\practicaDHTV4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\msvc9\Debug\practicaDHTV4.lib" /MACHINE:X86 Debug\practicaDHTV4.obj
+         Debug\stdafx.obj
+         practicaDHTV4.vcxproj -> D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\msvc9\Debug\practicaDHTV4.exe
+     1>Compilación del proyecto terminada "D:\Master\DHTV\Practicas\chai3d-2.0.0\projects\practicaDHTV4\practicaDHTV4.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.03

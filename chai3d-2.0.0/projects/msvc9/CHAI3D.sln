@@ -52,6 +52,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practicaDHTV3", "..\practic
 		{A9F01342-5463-4634-B1F9-BF98CD5591B0} = {A9F01342-5463-4634-B1F9-BF98CD5591B0}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practicaDHTV4", "..\practicaDHTV4\practicaDHTV4.vcxproj", "{D6D14DD7-C846-4BDC-B595-33C6CEC9EB60}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0} = {A9F01342-5463-4634-B1F9-BF98CD5591B0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -138,6 +143,10 @@ Global
 		{8DCCFCEE-BDA5-442D-B32B-C645E2FFAB68}.Debug|Win32.Build.0 = Debug|Win32
 		{8DCCFCEE-BDA5-442D-B32B-C645E2FFAB68}.Release|Win32.ActiveCfg = Release|Win32
 		{8DCCFCEE-BDA5-442D-B32B-C645E2FFAB68}.Release|Win32.Build.0 = Release|Win32
+		{D6D14DD7-C846-4BDC-B595-33C6CEC9EB60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6D14DD7-C846-4BDC-B595-33C6CEC9EB60}.Debug|Win32.Build.0 = Debug|Win32
+		{D6D14DD7-C846-4BDC-B595-33C6CEC9EB60}.Release|Win32.ActiveCfg = Release|Win32
+		{D6D14DD7-C846-4BDC-B595-33C6CEC9EB60}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

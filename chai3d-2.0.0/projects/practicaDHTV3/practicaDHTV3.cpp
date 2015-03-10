@@ -1,4 +1,4 @@
-// Practica 2 Julio Martín
+// Practica 3 Julio Martín
 // DHTV Máster en Informática Gráfica, Juegos y Realidad Virtual
 
 #include "stdafx.h"
@@ -113,13 +113,13 @@ int main(int argc, char* argv[]){
 	world->addChild(object);
 	//Modelos a cargar
 	//object->loadFromFile("./bunny.obj");
-	//object->loadFromFile("./duck-green.obj");
-	object->loadFromFile("./face.3ds");
+	object->loadFromFile("./duck-green.obj");
+	//object->loadFromFile("./face.3ds");
 
 	object->computeBoundaryBox(true);
 	double size = 3*cSub(object->getBoundaryMax(),object->getBoundaryMin()).length(); //Multiplico por 3 porque sino sale muy grande
 	object->scale(tool->getWorkspaceRadius() / size);
-	object->m_material.m_emission.set(0.0, 0.0, 1.0);
+	
 	//Textura para el modelo duck-green
 	/*cTexture2D* texture = new cTexture2D();
 	texture->loadFromFile("./duckCM.bmp");
